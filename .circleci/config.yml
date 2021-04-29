@@ -52,7 +52,7 @@ jobs:
       # double check and exit early if this is a job against a PR.
       - run: if [ -n "$CIRCLE_PULL_REQUEST" ]; then circleci-agent step halt; fi
       - setup_remote_docker
-      - run: sudo apt-get update && sudo apt-get install -y python-pip
+      
       - run: pip install invoke semver pyyaml
       - run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - run: mkdir -p ./bin
@@ -67,7 +67,7 @@ jobs:
       # double check and exit early if this is a job against a PR.
       - run: if [ -n "$CIRCLE_PULL_REQUEST" ]; then circleci-agent step halt; fi
       - setup_remote_docker
-      - run: sudo apt-get update && sudo apt-get install -y python-pip
+     
       - run: pip install invoke semver pyyaml
       - run: docker login quay.io -u $QUAY_USER -p $QUAY_PASSWORD
       - run: mkdir -p ./bin
