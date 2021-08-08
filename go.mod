@@ -8,9 +8,15 @@ require (
 	github.com/eapache/channels v1.1.0 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/go-kit/kit v0.9.0
+dependabot/go_modules/github.com/google/go-cmp-0.5.6
 	github.com/golang/protobuf v1.4.3
 	github.com/google/go-cmp v0.5.6
 	github.com/hashicorp/memberlist v0.1.7
+=======
+	github.com/golang/protobuf v1.5.2
+	github.com/google/go-cmp v0.5.5
+	github.com/hashicorp/memberlist v0.2.4
+main
 	github.com/mdlayher/arp v0.0.0-20191213142603-f72070a231fc
 	github.com/mdlayher/ethernet v0.0.0-20190606142754-0394541c37b7
 	github.com/mdlayher/ndp v0.0.0-20200602162440-17ab9e3e5567
@@ -23,10 +29,10 @@ require (
 	github.com/vishvananda/netlink v1.0.0 // indirect
 	github.com/vishvananda/netns v0.0.0-20190625233234-7109fa855b0f // indirect
 	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110 // indirect
-	golang.org/x/sys v0.0.0-20210314195730-07df6a141424
+	golang.org/x/sys v0.0.0-20210426230700-d19ff857e887
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.20.2
-	k8s.io/apimachinery v0.20.2
+	k8s.io/api v0.21.3
+	k8s.io/apimachinery v0.21.3
 	k8s.io/client-go v0.20.2
-	k8s.io/klog v0.3.1
+	k8s.io/klog v0.4.0
 )
