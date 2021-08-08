@@ -8,9 +8,15 @@ require (
 	github.com/eapache/channels v1.1.0 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/go-kit/kit v0.9.0
+dependabot/go_modules/github.com/google/go-cmp-0.5.6
+	github.com/golang/protobuf v1.4.3
+	github.com/google/go-cmp v0.5.6
+	github.com/hashicorp/memberlist v0.1.7
+=======
 	github.com/golang/protobuf v1.5.2
 	github.com/google/go-cmp v0.5.5
 	github.com/hashicorp/memberlist v0.2.4
+main
 	github.com/mdlayher/arp v0.0.0-20191213142603-f72070a231fc
 	github.com/mdlayher/ethernet v0.0.0-20190606142754-0394541c37b7
 	github.com/mdlayher/ndp v0.0.0-20200602162440-17ab9e3e5567
